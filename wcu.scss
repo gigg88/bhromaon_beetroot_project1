@@ -1,0 +1,55 @@
+.why_choose_us {
+    background-image: url(./assets/images/wcu_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:685px;
+
+}
+
+.wcu_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.wcu_text_side {
+    width: 100%;
+    max-width: 560px;
+    margin-top: 212px;
+
+    h2 {
+        font-size: 36px;
+        line-height: 26px;
+        font-weight: var(--regular);
+        color: var(--text-color-light);
+        margin-bottom: 50px;
+       }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: var(--regular);
+      letter-spacing: 1.6px;
+      margin-bottom: 45px;
+
+       }
+       
+}
+
+.wcu_cta_btn {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: var(--wcu-btn-color);
+    color: var(--text-color-light);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: var(--regular);
+    line-height: 26px;
+    letter-spacing: 1.2px;
+
+}

@@ -1,0 +1,72 @@
+.country_spain_top {
+  background-image: url(./assets/images/country_content_top.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+}
+
+.country_spain_bottom {
+  background-image: url(./assets/images/country_content_bottom.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+}
+
+.country_content_top {
+  background-color: var(--country-bg-color);
+  opacity: 90%;
+}
+
+.country_content_txt {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+}
+.country_content_txt h4 {
+  padding-top: 49px;
+  font-size: 20px;
+  font-weight: var(--regular);
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: var(--text-color-light);
+}
+.country_content_txt h3 {
+  padding-top: 23px;
+  font-size: 20px;
+  font-weight: var(--regular);
+  line-height: 26px;
+  color: var(--text-color-light);
+}
+.country_content_txt p {
+  padding-top: 13px;
+  margin-bottom: 64px;
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 26px;
+  color: var(--text-color-light);
+}
+
+.country_button {
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.country_cta_btn {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 64px;
+  padding-right: 64px;
+  background-color: var(--wcu-btn-color);
+  color: var(--text-color-light);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 26px;
+  letter-spacing: 1.2px;
+}

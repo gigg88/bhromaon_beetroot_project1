@@ -1,0 +1,54 @@
+.header_section{
+    background-image: url(./assets/images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:100vh;
+}
+
+.header_bg_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.header_logo {
+    color: var(--text-color-light);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: var(--bold);
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;    
+    
+}
+
+.header_menu {
+    display: flex;
+    width: 100%;
+    background-color: var(--header-bg-color);
+    padding: 32px 0;
+    
+}
+
+.main_nav_list li {
+    display: inline-block;
+    align-items: center;
+    
+    
+    a {
+        text-decoration: none;
+        gap: 30px;
+        color: var(--text-color-light);
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: var(--regular);
+        
+    }
+}
+
+.main_nav_list li:not(:last-child) {
+    margin-right: 30px;
+  }
