@@ -3,3 +3,40 @@
   width: 100%;
   height: 340px;
 }
+
+.hiw_content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.hiw_bridge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.hiw_content_block_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+
+.magnify_glass_cl {
+  color: #5474FD;
+}
+
+.circle_check_cl {
+  color: #FF6363;
+}
+
+.thumb_cl {
+  color: #00A2FF;
+}

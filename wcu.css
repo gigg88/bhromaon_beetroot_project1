@@ -9,7 +9,7 @@
 .wcu_content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .wcu_text_side {
@@ -23,6 +23,7 @@
   font-weight: var(--regular);
   color: var(--text-color-light);
   margin-bottom: 50px;
+  font-family: var(--aleo_font);
 }
 .wcu_text_side p {
   font-size: 16px;
@@ -30,6 +31,8 @@
   font-weight: var(--regular);
   letter-spacing: 1.6px;
   margin-bottom: 45px;
+  font-family: var(--josefin_font);
+  color: var(--text-color-light);
 }
 
 .wcu_cta_btn {
@@ -44,4 +47,20 @@
   font-weight: var(--regular);
   line-height: 26px;
   letter-spacing: 1.2px;
+  font-family: var(--aleo_font);
+}
+
+.wcu_image_side img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.wcu_image_side_img_house_lake {
+  margin-left: 112px;
+  margin-bottom: 10px;
+  margin-top: 117px;
+}
+
+.wcu_image_side_img_mountain {
+  margin-left: 202px;
 }

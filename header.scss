@@ -1,7 +1,10 @@
-
+.header_section {
+    background-color: var(--header-bg-color);
+}
 
 .header_logo {
     color: var(--text-color-light);
+    font-family: var(--josefin_font);
     text-decoration: none;
     font-size: 24px;
     font-weight: var(--bold);
@@ -14,23 +17,24 @@
 .header_menu {
     display: flex;
     width: 100%;
-    background-color: var(--header-bg-color);
     padding: 32px 0;
-    
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main_nav_list li {
     display: inline-block;
-    align-items: center;
-    
     
     a {
+        
         text-decoration: none;
         gap: 30px;
         color: var(--text-color-light);
         font-size: 14px;
         line-height: 26px;
+        text-transform: uppercase;
         font-weight: var(--regular);
+        font-family: var(--aleo_font);
         
     }
 }
