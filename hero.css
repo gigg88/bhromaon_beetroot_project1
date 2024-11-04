@@ -1,0 +1,78 @@
+.hero_section {
+  background-image: url(./assets/images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero.content {
+  width: 100%;
+}
+
+.hero_bg_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero_bg_text h1 {
+  font-family: var(--josefin_font);
+  font-weight: var(--bold);
+  font-size: 48px;
+  letter-spacing: 4.8px;
+  line-height: 26px;
+  color: var(--text-color-light);
+  margin-bottom: 11px;
+}
+.hero_bg_text .hero_txt {
+  font-family: var(--josefin_font);
+  font-weight: var(--regular);
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  color: var(--text-color-light);
+  margin-bottom: 48px;
+}
+
+.hero_input {
+  max-width: 653px;
+  max-height: 63px;
+  background-color: #fff;
+  padding: 1px 1px;
+  width: 100%;
+  display: flex;
+}
+
+.hero_input input[type=text] {
+  border: none;
+  border-right: none;
+  width: 100%;
+  text-transform: capitalize;
+  font-family: var(--josefin_font);
+  font-weight: var(--regular);
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.hero_input button[type=submit] {
+  display: flex;
+  padding: 19px 49px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-family: var(--aleo_font);
+  font-weight: var(--regular);
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}

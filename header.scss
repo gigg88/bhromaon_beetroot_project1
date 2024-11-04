@@ -1,18 +1,4 @@
-.header_section{
-    background-image: url(./assets/images/header.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height:100vh;
-}
 
-.header_bg_text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
 
 .header_logo {
     color: var(--text-color-light);
