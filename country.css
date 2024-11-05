@@ -4,6 +4,7 @@
   background-position: center center;
   background-size: cover;
   height: 700px;
+  position: relative;
 }
 
 .country_spain_bottom {
@@ -12,11 +13,17 @@
   background-position: center center;
   background-size: cover;
   height: 700px;
+  position: relative;
 }
 
 .country_content_top {
+  position: absolute;
   background-color: var(--country-bg-color);
   opacity: 90%;
+  max-width: 543px;
+  width: 100%;
+  top: 226px;
+  left: 328px;
 }
 
 .country_content_txt {
@@ -35,6 +42,7 @@
   line-height: 26px;
   letter-spacing: 1.5px;
   color: var(--text-color-light);
+  font-family: var(--josefin_font);
 }
 .country_content_txt h3 {
   padding-top: 23px;
@@ -42,6 +50,7 @@
   font-weight: var(--regular);
   line-height: 26px;
   color: var(--text-color-light);
+  font-family: var(--josefin_font);
 }
 .country_content_txt p {
   padding-top: 13px;
@@ -50,6 +59,7 @@
   font-weight: var(--regular);
   line-height: 26px;
   color: var(--text-color-light);
+  font-family: var(--josefin_font);
 }
 
 .country_button {
@@ -69,4 +79,16 @@
   font-weight: var(--regular);
   line-height: 26px;
   letter-spacing: 1.2px;
+  font-family: var(--aleo_font);
+  text-transform: uppercase;
+}
+
+.country_content_bottom {
+  position: absolute;
+  background-color: var(--country-bg-color);
+  opacity: 90%;
+  max-width: 543px;
+  width: 100%;
+  top: 226px;
+  left: 328px;
 }
